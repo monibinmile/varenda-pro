@@ -1,0 +1,36 @@
+{
+    "questions": [
+      {
+        "text": "What is your name?",
+        "options": [
+          "John",
+          "Sarah",
+          "Mike",
+          "Emily"
+        ],
+        "answer": "Sarah"
+      },
+      {
+        "text": "What is your favorite color?",
+        "options": [
+          "Red",
+          "Green",
+          "Blue",
+          "Yellow"
+        ],
+        "answer": "Blue"
+      },
+      {
+        "text": "What is your favorite food?",
+        "options": [
+          "Pizza",
+          "Burger",
+          "Tacos",
+          "Sushi"
+        ],
+        "answer": "Sushi"
+      }
+    ],
+    "currentQuestionIndex": 0
+  }
+  

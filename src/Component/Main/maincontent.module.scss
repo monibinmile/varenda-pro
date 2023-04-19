@@ -1,0 +1,105 @@
+.mainfirstcol {
+    h4 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-transform: capitalize;
+        text-align:justify;
+
+    }
+
+    h6 {
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: capitalize;
+        text-align:justify;
+    }
+
+
+
+    border-right: 1px solid silver;
+}
+
+.mainsecondcol {
+    border-right: 6px solid silver;
+
+    &.scrollbar {
+        overflow-y: scroll;
+
+
+    }
+
+    .container {
+        border-bottom: 1px solid silver;
+
+
+        .mark {
+            margin-left: 16rem;
+        }
+
+
+
+        .ques,
+        .mark {
+            white-space: nowrap;
+
+            h6 {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin-top: 7px;
+
+
+            }
+
+        }
+
+        .ques {
+            h6 {
+                color: #eb6868;
+            }
+        }
+
+
+
+        span {
+            &.negativemark {
+                color: #eb6868;
+
+            }
+
+            color: seagreen;
+        }
+
+
+
+    }
+
+    .thirdrow {
+        border-bottom: 1px solid silver;
+
+        h6 {
+            margin-top: 5px;
+        }
+
+    }
+
+    .fourthrow {
+        .fourthcol {
+            h5 {
+                margin-top: 7px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+    }
+
+    .fivthrow {
+        .fivthcol {
+            input[type="radio"] {
+                vertical-align: middle;
+            }
+
+            .formgrp {
+                padding: 0.5rem;
+            }
+        }
+    }
+
+}

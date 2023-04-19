@@ -1,0 +1,31 @@
+.rowdata {
+    border-bottom: 1px solid silver;
+    width: 100%;
+    .reasonData {
+        width: 10%;
+        padding: 5px;
+        background-color: blue;
+
+        h6 {
+
+            color: white;
+            margin-top: 6px;
+            margin-left: 17px;
+
+        }
+
+    }
+
+    .quansdata {
+        width: 8%;
+        border-right: 1px solid silver;
+        text-align: left;
+
+        p {
+            color: skyblue;
+            margin-top: 8px;
+        }
+
+    }
+
+}

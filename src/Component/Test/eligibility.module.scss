@@ -1,0 +1,15 @@
+.container{
+    height: 40px;
+    width:100%;
+    border-bottom: 1px solid silver;
+    background-color: antiquewhite;
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+       h6{
+        margin:10px;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+    }
+
+}
